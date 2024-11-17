@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <nav>
+        <!-- Checkbox for toggling menu -->
+        <input type="checkbox" id="check">
+        <!-- Menu icon -->
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <!-- Site logo -->
+        <label class="logo">Portfolio</label>
+        <!-- Navigation links -->
+        <ul>
+          <li><a class="active" href="#sec1">Home</a></li>
+          <li><a href="#sec2">About</a></li>
+          <li><a href="#sec3">Services</a></li>
+          <li><a href="#sec3">Contact</a></li>
+          <li><a href="#sec4">Projects</a></li>
+       
+        </ul>
+      </nav>
+
+      <div id="sec1" class="container-fluid sec1">
+        <div class="container">
+            <div class="row part1">
+                <div class="col-md-6 part1-sec">
+                    <div class="heading">
+                        <h1 style="margin-top: 10px;">Hello its Me</h1>
+                        <h2 style="margin-top: 10px;">Syed Safi Haider</h2>
+                        <h2 style="margin-top: 10px;">And I am a 
+                            <span class="typing-animation">
+                                <!-- <span class="role role-1">Full Stack Web Developer</span>
+                                <span class="role role-2">Game Developer</span> -->
+                            </span>
+                        </h2>
+                        <p style="margin-top: 10px;">I am a full-stack web developer and game developer, passionate about creating engaging digital experiences through innovative coding solutions.</p>
+                        <button style="margin-top: 10px;" class="glowing-btn" onclick="downloadRar()">
+                            <span class="glowing-txt">Down<span class="faulty-letter">load</span>CV</span>
+                        </button>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 part1-sec">
+                    <div class="side-image">
+                        <img src="images/portfolio1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+
+
+    <div id="sec2" class="container-fluid sec2">
+        <div class="container">
+            <div class="row part1">
+                <div class="col-md-6 part1-sec">
+                    <div class="side-image pow">
+                        <img src="images/portfolio2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 part1-sec1 ">
+                    <div class="About-me">
+                        <h1>About <span class="text-edit">Me</span></h1>
+                        <h2 style="padding-top: 10px;">Full-stack WebDeveloper!</h2>
+                        <h2 style="padding: 10px;">Game Developer!</h2>
+                        <p style="width: 80%;  text-align: justify;">
+                            I am a dedicated full-stack web developer and game developer with a passion for blending technology and creativity to craft compelling digital experiences. 
+                            With expertise in both front-end and back-end development, I create responsive, user-friendly web applications and immersive gaming environments. 
+                            My goal is to bring ideas to life through clean, efficient code and thoughtful design, constantly pushing boundaries to deliver innovative solutions. 
+                            Whether developing for the web or creating dynamic gameplay, I strive to produce engaging, high-quality work that resonates with users.
+                        </p>
+                                                <!-- HTML !-->
+                       <button  class="button-85" role="button">Read More</button>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Our Services -->
+
+
+
+    <div id="sec3" class="container-fluid sec3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h1>Our <span>Services</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row c3">
+                <div class="col-md-4 c4">
+                    <div class="card" style="width: 18rem; height: 28rem; border: 2px solid #02e8f5; margin-top: 30px;">
+                        <img src="images/web_developmet.jpg" class="card-img-top" alt="...">
+                        <div class="card-body c2">
+                          <h5 class="card-title" style="color: #fff;">Web Developer</h5>
+                          <p class="card-text">I provide web development services to design and build responsive, user-friendly websites that deliver high performance and meet your specific needs, ensuring an engaging experience for your users</p>
+                          <a href="https://wa.me/03147850262" class="btn btn-primary" style="background-color: #02e8f5;" target="_blank">Contact me</a>
+
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem; height: 28rem; border: 2px solid #02e8f5; margin-top: 30px;">
+                        <img src="images/game-dev.jpg" class="card-img-top" alt="...">
+                        <div class="card-body c2">
+                            <h5 class="card-title" style="color: #fff;">Game Developer</h5>
+                            <p class="card-text">I offer game development services to create immersive, engaging experiences, combining creativity and technical expertise to bring unique gaming ideas to life.</p>
+                            <a href="https://wa.me/03147850262" class="btn btn-primary" style="background-color: #02e8f5;" target="_blank">Contact me</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem; height: 30rem; border: 2px solid #02e8f5; margin-top: 30px;">
+                        <img src="images/python-dev.jpg" class="card-img-top" alt="...">
+                        <div class="card-body c2">
+                            <h5 class="card-title" style="color: #fff;">Python Developer</h5>
+                            <p class="card-text">I provide Python development services, specializing in creating efficient, scalable solutions for web applications, data analysis, and automation. With a focus on clean, maintainable code, I help turn complex requirements into reliable, high-performance software.</p>
+                            <a href="https://wa.me/03147850262" class="btn btn-primary" style="background-color: #02e8f5;" target="_blank">Contact me</a>
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Latset Project  -->
+
+    <div id="sec4" class="container-fluid sec4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h1>Latest <span>Project</span></h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="image-hover-container">
+                                <div class="hover-box">
+                                    <img src="images/BG.jpg" alt="Sample Image" class="hover-image">
+                                    <div class="overlay">
+                                        <h5 class="overlay-title">Tekken <span style="color: #02e8f5;">Game</span></h5>
+                                        <p class="overlay-text">I created a Tekken-inspired fighting game in Unity, featuring dynamic character animations and engaging combat mechanics for an immersive player experience</p>
+                                        <a href="https://drive.google.com/file/d/1AOqvyY10LBGgqXNqWp-y1gmZQ2EWtuqo/view?usp=sharing" target="_blank" class="btn btn-primary" style="background-color: #02e8f5;">Get code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                       </div>
+                       <div class="col-md-4">
+                        <div class="image-hover-container">
+                            <div class="hover-box">
+                                <img src="images/ben10jpg.jpg" alt="Sample Image" class="hover-image">
+                                <div class="overlay">
+                                    <h5 class="overlay-title">Ben10 <span style="color: #02e8f5;">Game</span></h5>
+                                    <p class="overlay-text">I developed Ben10 Game in which he transform to different aliens and fight against different aliens to protect the city</p>
+                                    <a href="https://drive.google.com/file/d/1q1H0kpn-A7XVriMaTk51DyOsx0jBvN5A/view?usp=sharing" target="_blank" class="btn btn-primary" style="background-color: #02e8f5;">Get code</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                   </div>
+                   <div class="col-md-4">
+                    <div class="image-hover-container">
+                        <div class="hover-box">
+                            <img src="images/multiplayer.png" alt="Sample Image" class="hover-image">
+                            <div class="overlay">
+                                <h5 class="overlay-title">Multiplayer <span style="color: #02e8f5;"> Mobile Game</span></h5>
+                                <p class="overlay-text">
+                                    I developed a Unity multiplayer game with real-time interaction, smooth gameplay, and immersive player experiences for collaboration and competition.
+                                </p>
+                                <a href="https://drive.google.com/file/d/1t_gsLFRtO7vCOAVBK8SX_SvSBYRAL0Zv/view?usp=sharing" target="_blank" class="btn btn-primary" style="background-color: #02e8f5;">Get code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="image-hover-container">
+                                    <div class="hover-box">
+                                        <img src="images/ecom.jfif" alt="Sample Image" class="hover-image">
+                                        <div class="overlay">
+                                            <h5 class="overlay-title">Ecomerence <span style="color: #02e8f5;"> WebSite</span></h5>
+                                            <p class="overlay-text">I built an e-commerce website using Django and Python, featuring product browsing, cart management, and checkout. This project highlights my skills in back-end development and database management</p>
+                                            <a href="https://drive.google.com/file/d/1yD0MVRmtyp6Z_1OrypKeira4HgblFBhC/view?usp=sharing" target="_blank" class="btn btn-primary" style="background-color: #02e8f5;">Get code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                           </div>
+                           <div class="col-md-4">
+                            <div class="image-hover-container">
+                                <div class="hover-box">
+                                    <img src="images/Handmouse.png" alt="Sample Image" class="hover-image">
+                                    <div class="overlay">
+                                        <h5 class="overlay-title">Hand-Controlling <span style="color: #02e8f5;"> Mouse</span></h5>
+                                        <p class="overlay-text">I developed a Python hand-controlled mouse using computer vision, enabling touch-free cursor control through intuitive hand gestures</p>
+                                        <a href="https://drive.google.com/file/d/1bsnDrhmlnZIbuHNAbk0OooQ7XMjv6fRr/view?usp=sharing" target="_blank" class="btn btn-primary" style="background-color: #02e8f5;">Get code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                       </div>
+                       <div class="col-md-4">
+                        <div class="image-hover-container">
+                            <div class="hover-box">
+                                <img src="images/python-web.jpg" alt="Sample Image" class="hover-image">
+                                <div class="overlay">
+                                    <h5 class="overlay-title">Django <span style="color: #02e8f5;"> Project</span></h5>
+                                    <p class="overlay-text">I created a website using Python and Django, focusing on efficient back-end functionality and smooth user interaction, showcasing my full-stack development skills</p>
+                                    <a href="https://drive.google.com/file/d/10fDdMpLvlzaPHkWESXb7EdxqGbbgjqCX/view?usp=sharing" target="_blank" class="btn btn-primary" style="background-color: #02e8f5;">Get code</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                   </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- foooter Section -->
+
+    <footer class="footer">
+        This Portfolio is made by Syed Safi Haider
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
